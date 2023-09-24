@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+}
+             /* Header Section */
+nav{
+    background-color: black;
+    color:white;
+    padding: 25px;
+}
+li,h1,ul{
+    display:inline-block;
+}
+ul{
+    margin-left:40%;
+}
+li a{
+    color:grey;
+    cursor: pointer;
+    margin-left :10px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    color:white;
+}
+
+             /* Searchbar Section */
+
+input{
+    width:60%;
+    padding:15px;
+}
+.searchbar{
+    padding:50px;
+    text-align:center;
+
+}
+
+                 /* Products */
+img{
+    width:220px;
+    height:220px;
+}
+.box{
+    border:2px solid black;
+    display:inline-block;
+    width:220px;
+    margin:10px;
+}
+.products{
+    text-align:center;
+}
+
+.box:hover{
+    background-color:black;
+    color:white;
+
+}
+
+                /* About Section */
+
+.about{
+    text-align:center;
+    margin:20px;
+    padding:10px;
+}                
+.aboutpara{
+    text-align:justify;
+
+}
+
+h3 {
+    margin:3vw;
+}
+h3 a{
+    text-decoration:none;
+    color: blue;
+}
+h3 a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+
+                /* Contacts Section */
+
+
+ .contact{
+    text-align:center;
+    background-color: black;
+    color:white;
+    padding:50px;
+ }               
+ .contactpara{
+    margin-top:50px;
+    font-size:0.8rem;
+ }
+ .mail{
+    text-decoration:none;
+ }
+ .mail:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    color:red;
+ }
+ 
+
+
+
+
+
+
+
+
+
